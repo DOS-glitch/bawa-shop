@@ -19,7 +19,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { Plus, Edit, Trash2, Package, BAWA SHOPpingCart, Users, Check, X } from "lucide-react";
+import { Plus, Edit, Trash2, Package, ShoppingCart, Users, Check, X } from "lucide-react";
 import type { ProductWithRelations, Category, Brand, OrderWithItems, User } from "@shared/schema";
 
 const productSchema = z.object({
