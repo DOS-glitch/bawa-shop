@@ -8,7 +8,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useAuth } from "@/hooks/useAuth";
 import { useLanguage, type Language } from "@/lib/i18n";
 import { useQuery } from "@tanstack/react-query";
-import { Search, User, BAWA SHOPpingBag, Menu, Heart } from "lucide-react";
+import { Search, User, ShoppingBag, Menu, Heart } from "lucide-react";
 import CartDrawer from "./CartDrawer";
 
 export default function Header() {
